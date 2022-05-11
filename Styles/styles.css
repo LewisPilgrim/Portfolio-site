@@ -1,4 +1,127 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand";
+}
 header {
     height: 100vh;
-    
+    background-color: #2f4f4f;
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+}
+/* Headings */
+h1 {
+    font-size: 4rem;
+    margin: 3rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+h2 span {
+    color: #A26262;
+}
+a {
+    text-decoration: none;
+}
+/* Button */
+.button {
+    padding: 1rem;
+    background-color: #A26262;
+    color: white;
+    width: 10rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+.button:hover {
+    background-color: white;
+    color: #A26262;
+    border: 2px solid #A26262;
+}
+/* Projects */
+#whatIMade:hover {
+    cursor: pointer;
+}
+#projects {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project {
+    color: white;
+    padding: 1rem;
+    z-index: 0;
+    background-color: #A26262;
+    height: 32rem;
+}
+.project img {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+.project p {
+    padding: 2rem 0rem;
+}
+#overlay {
+    width: 27.74%;
+    height: auto;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.6);
+    background-size: cover;
+    margin: 1.5%;
+    padding: 1rem;
+    vertical-align: top;
+    z-index: 2;
+    flex: 1 2 250px;
+    opacity: 0.5;
+}
+#overlay:hover {
+    background: rgba(255, 255, 255, 0);
+    opacity: 1;
+}
+/* Contact */
+.contact {
+    text-align: center;
+    padding: 2rem;
+}
+/* Top button */
+.top-button {
+    position: fixed;
+    right: 0;
+    bottom: 6rem;
+    background-color: #A26262;
+    color: white;
+    padding: 1rem;
+    z-index: 3;
+}
+.top-button:hover {
+    background-color: white;
+    color: #A26262;
+    border: 1px solid #A26262;
+}
+/* About Me */
+.about-me {
+    width: 45%;
+    height: auto;
+    display: inline block;
+    float: left;
+    padding: 3rem;
+    margin: 2rem;
+}
+.portrait-img {
+    display: inline-block;
+    margin: 2rem;
+    border: 5px solid darkslategrey;
+}
+.portrait-img img {
+    display: block;
+}
+.logos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
 }

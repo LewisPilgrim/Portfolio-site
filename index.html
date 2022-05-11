@@ -3,45 +3,63 @@
     <head>
         <title>Lewis Pilgrim Portfolio Website</title>
         <link rel="stylesheet" href="./Styles/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Quicksand:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
+<!-- Header -->
         <header>
           <h1>Hello.</h1>
           <h2>I am <span>Lewis Pilgrim</span>,</h2>
           <h2>Front End Developer</h2>
-          <div class="button"><a href="#about">ABOUT</a></div>
+          <a href="#about"><div class="button">ABOUT</div></a>
         </header>
-        <section id="about-me">
-            <h2 id="about">About Me</h2>
-            <p>I am a self-taught Front End Developer with a passion for visual design and a keen eye for detail.</p>
-            <img src="./Images/portrait" alt="Lewis Pilgrim">
-            <p>Interactive design, Accessability and UX are key areas of interest for me. My goal is to create beautiful sites that everyone can enjoy!</p>
+<!-- About Me Section-->        
+        <section id="about">
+            <div class="about-me">
+              <h2>About Me</h2>
+              <p>I am a self-taught Front End Developer with a passion for visual design and a keen eye for detail.</p>
+              <p>Interactive design, Accessability and UX are key areas of interest for me. My goal is to create beautiful sites that everyone can enjoy!</p>
+              <div class="logos">
+                <img src="./Images/003-html.jpg" alt="HTML logo">
+                <img src="./Images/004-css-3.jpg" alt="CSS logo">
+                <img src="./Images/002-javascript.jpg" alt="JavaScript logo">
+                <img src="./Images/005-git.jpg" alt="Git logo">
+                <img src="./Images/001-node-js.jpg" alt="Node.js logo">
+                <img src="./Images/006-user-experience.jpg" alt="UX icon">
+              </div>
+            </div>
+            <div class="portrait-img"><img src="./Images/potrait.jpg" alt="Lewis Pilgrim"></div>
         </section>
+<!-- Projects -->
+        <h2 id="project-head">PROJECTS</h2>
+        <a href="#project-head"><div class="button" id="whatIMade">Look what I made!</div></a>
         <section id="projects">
-            <h2>PROJECTS</h2>
-            <div class="button">Look what I made!</div>
-            <div class="project" id="project-1">
+            <div id="overlay"><div class="project" id="project-1">
                 <h3>Learning Resource Site</h3>
-                <img src="./Images/resource-site" alt="Resource Site screenshot">
+                <img src="./Images/resource-site.jpg" alt="Resource Site screenshot">
                 <p><strong>Description:</strong> I created this site to help me store all of the information that I have learnt on my Front End Development course. The site is split into pages for each of the languages I have learnt as well as different classifications within each language. The aim of the site is to keep a reference of all of the information that I have learnt and refer back to it when needed.</p>
                 <p><strong>Tech used:</strong>HTML, CSS</p>
-            </div>
-            <div class="project" id="project-2">
+            </div></div>
+            <div id="overlay"><div class="project" id="project-2">
                 <h3>East Grinstead DnD</h3>
-                <img src="./Images/dnd-site" alt="East Grinstead DnD Site screenshot">
+                <img src="./Images/dnd-site.jpg" alt="East Grinstead DnD Site screenshot">
                 <p><strong>Description:</strong>This site was made as part of my Codecademy course to demonstrate a website for a local club. The site contains all of the information needed for people looking to keep up with the club activities, or join.</p>
                 <p><strong>Tech used:</strong>HTML, CSS</p>
-            </div>
-            <div class="project" id="project-3">
+            </div></div>
+            <div id="overlay"><div class="project" id="project-3">
                 <h3>Recipe Project</h3>
-                <img src="./Images/recipe" alt="Recipe listing Site screenshot">
+                <img src="./Images/recipe.jpg" alt="Recipe listing Site screenshot">
                 <p><strong>Description:</strong>This project is designed to take recipe inputs and transport them dynamically to a list so that people can plan their shopping ahead of time.</p>
                 <p><strong>Tech used:</strong>HTML, CSS, JavaScript</p>
-            </div>
+            </div></div>
         </section>
+<!-- Contact button -->
         <section id="contact-button">
-            <div class="button" id="contact"><a href="./contact.html">Contact Me</a></div>
-            <div class="top-button"><a href="#">/\</a></div>
+            <a href="./contact.html"><div class="button" id="contact">Contact Me</div></a>
+            <a href="#"><div class="top-button"><strong>/\</strong></div></a>
         </section>
+        <footer>
+            <p>Lewis Pilgrim 2022</p>
+        </footer>
     </body>
 </html>
