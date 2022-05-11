@@ -4,6 +4,7 @@
         <title>Lewis Pilgrim Portfolio Website</title>
         <link rel="stylesheet" href="./Styles/styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <script src="./main.js" defer></script>
     </head>
     <body>
 <!-- Header -->
@@ -11,15 +12,15 @@
           <h1>Hello.</h1>
           <h2>I am <span>Lewis Pilgrim</span>,</h2>
           <h2>Front End Developer</h2>
-          <a href="#about"><div class="button">ABOUT</div></a>
+          <a href="#about" role="link"><div class="button" role="complementary">ABOUT</div></a>
         </header>
 <!-- About Me Section-->        
-        <section id="about">
-            <div class="about-me">
+        <section id="about" role="complementary">
+            <div class="about-me" role="article">
               <h2>About Me</h2>
               <p>I am a self-taught Front End Developer with a passion for visual design and a keen eye for detail.</p>
               <p>Interactive design, Accessability and UX are key areas of interest for me. My goal is to create beautiful sites that everyone can enjoy!</p>
-              <div class="logos">
+              <div class="logos" role="img">
                 <img src="./Images/003-html.jpg" alt="HTML logo">
                 <img src="./Images/004-css-3.jpg" alt="CSS logo">
                 <img src="./Images/002-javascript.jpg" alt="JavaScript logo">
@@ -28,25 +29,25 @@
                 <img src="./Images/006-user-experience.jpg" alt="UX icon">
               </div>
             </div>
-            <div class="portrait-img"><img src="./Images/potrait.jpg" alt="Lewis Pilgrim"></div>
+            <div class="portrait-img" role="img"><img src="./Images/potrait.jpg" alt="Lewis Pilgrim"></div>
         </section>
 <!-- Projects -->
-        <h2 id="project-head">PROJECTS</h2>
+        <h2 id="project-head" role="article">PROJECTS</h2>
         <a href="#project-head"><div class="button" id="whatIMade">Look what I made!</div></a>
         <section id="projects">
-            <div id="overlay"><div class="project" id="project-1">
+            <div id="overlay" role="complementary"><div class="project" id="project-1">
                 <h3>Learning Resource Site</h3>
                 <img src="./Images/resource-site.jpg" alt="Resource Site screenshot">
                 <p><strong>Description:</strong> I created this site to help me store all of the information that I have learnt on my Front End Development course. The site is split into pages for each of the languages I have learnt as well as different classifications within each language. The aim of the site is to keep a reference of all of the information that I have learnt and refer back to it when needed.</p>
                 <p><strong>Tech used:</strong>HTML, CSS</p>
             </div></div>
-            <div id="overlay"><div class="project" id="project-2">
+            <div id="overlay" role="complementary"><div class="project" id="project-2">
                 <h3>East Grinstead DnD</h3>
                 <img src="./Images/dnd-site.jpg" alt="East Grinstead DnD Site screenshot">
                 <p><strong>Description:</strong>This site was made as part of my Codecademy course to demonstrate a website for a local club. The site contains all of the information needed for people looking to keep up with the club activities, or join.</p>
                 <p><strong>Tech used:</strong>HTML, CSS</p>
             </div></div>
-            <div id="overlay"><div class="project" id="project-3">
+            <div id="overlay" role="complementary"><div class="project" id="project-3">
                 <h3>Recipe Project</h3>
                 <img src="./Images/recipe.jpg" alt="Recipe listing Site screenshot">
                 <p><strong>Description:</strong>This project is designed to take recipe inputs and transport them dynamically to a list so that people can plan their shopping ahead of time.</p>
@@ -54,7 +55,7 @@
             </div></div>
         </section>
 <!-- Contact button -->
-        <section id="contact-button">
+        <section id="contact-button" role="button">
             <a href="./contact.html"><div class="button" id="contact">Contact Me</div></a>
             <a href="#"><div class="top-button"><strong>/\</strong></div></a>
         </section>
