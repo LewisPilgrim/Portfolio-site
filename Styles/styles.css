@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: "Quicksand";
+    font-weight: 600;
+    scroll-behavior: smooth;
 }
 header {
     height: 100vh;
@@ -28,6 +30,14 @@ h2 span {
 a {
     text-decoration: none;
 }
+.contact-head {
+    height: 12rem;
+    background-color: darkslategrey;
+    color: white;
+    border-bottom: 1rem solid #A26262;
+    padding-top: 3rem;
+    margin: 0;
+}
 /* Button */
 .button {
     padding: 1rem;
@@ -36,40 +46,85 @@ a {
     width: 10rem;
     margin: 2rem auto;
     text-align: center;
+    transition-property: background-color border;
+    transition-duration: 1s;
 }
 .button:hover {
     background-color: white;
     color: #A26262;
     border: 2px solid #A26262;
 }
+/* About Me */
+#about {
+    padding: 2rem 0;
+    height: 100vh;
+}
+.about-me {
+    width: 45%;
+    height: auto;
+    display: inline block;
+    float: left;
+    padding: 3rem;
+    margin: 2rem;
+    margin-left: 6rem;
+    margin-top: 0;
+}
+.portrait-img {
+    display: inline-block;
+    margin: 2rem;
+    margin-top: 4rem;
+    border: 5px solid darkslategrey;
+    border-radius: 50%;
+}
+.portrait-img img {
+    display: block;
+    border-radius: 50%;
+}
+.logos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.divider {
+    height: 0.5rem;
+    width: 90%;
+    background-color: darkslategrey;
+    margin: 4rem auto;
+}
 /* Projects */
+#project-head {
+    margin-bottom: 0;
+}
 #whatIMade:hover {
     cursor: pointer;
 }
 #projects {
     margin: 0 auto;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
 }
 .project {
     color: white;
-    padding: 1rem;
     z-index: 0;
     background-color: #A26262;
-    height: 32rem;
+    height: 33rem;
 }
 .project img {
     width: 100%;
     height: auto;
-    margin-top: 2rem;
+}
+.project h3 {
+    margin: 1rem;
+    cursor: default;
 }
 .project p {
+    margin: 1rem;
     padding: 2rem 0rem;
+    cursor: default;
 }
 #overlay {
     width: 27.74%;
     height: auto;
-    display: inline-block;
     background: rgba(255, 255, 255, 0.6);
     background-size: cover;
     margin: 1.5%;
@@ -78,15 +133,41 @@ a {
     z-index: 2;
     flex: 1 2 250px;
     opacity: 0.5;
+    transition: opacity 1s;
+    animation-name: grow;
+    animation-duration: 1s;
 }
 #overlay:hover {
     background: rgba(255, 255, 255, 0);
     opacity: 1;
 }
+@keyframes grow {
+    0% {
+        transform: scale(0.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes shrink {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.00001);
+    }
+}
 /* Contact */
 .contact {
     text-align: center;
     padding: 2rem;
+}
+#contact {
+    margin-bottom: 5rem;
+}
+.contact-logo {
+    display: inline;
+    margin-top: 1rem;
 }
 /* Top button */
 .top-button {
@@ -97,31 +178,21 @@ a {
     color: white;
     padding: 1rem;
     z-index: 3;
+    transition-property: background-color border;
+    transition-duration: 1s;
+    border: 1px solid darkslategrey;
 }
 .top-button:hover {
     background-color: white;
     color: #A26262;
     border: 1px solid #A26262;
 }
-/* About Me */
-.about-me {
-    width: 45%;
-    height: auto;
-    display: inline block;
-    float: left;
-    padding: 3rem;
-    margin: 2rem;
-}
-.portrait-img {
-    display: inline-block;
-    margin: 2rem;
-    border: 5px solid darkslategrey;
-}
-.portrait-img img {
-    display: block;
-}
-.logos {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 3rem;
+/* Footer */
+footer {
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+    padding: 2rem;
+    margin-top: 4rem;
+    border-top: 0.5rem solid #A26262;
 }
