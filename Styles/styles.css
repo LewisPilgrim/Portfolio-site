@@ -213,7 +213,7 @@ footer {
         display: block;
     }
 }
-@media only screen and (max-width: 760px) and (min-width: 451px) {
+@media only screen and (max-width: 760px){
     body {
         font-size: 14px;
     }
@@ -233,16 +233,19 @@ footer {
 }
 @media only screen and (orientation: portrait) {
     header {
-        padding-top: 50%;
+        padding-top: 35%;
     }
     .about-me {
         padding-top: 10%;
     }
 }
 @media only screen and (max-width: 450px) {
-    .about-me p {
+    .about-me {
         width: 80%;
-        font-size: 40px;
+        margin: 0 auto;
+    }
+    .portrait-img {
+        margin: 0 auto;
     }
     #overlay {
         min-width: 80%;
