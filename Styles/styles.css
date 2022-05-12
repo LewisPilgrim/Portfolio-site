@@ -67,6 +67,11 @@ a {
     margin: 2rem;
     margin-left: 6rem;
     margin-top: 0;
+    font-size: 16px;
+}
+.about-me p {
+    font-size: 16px;
+    width: 100%;
 }
 .portrait-img {
     display: inline-block;
@@ -208,7 +213,7 @@ footer {
         display: block;
     }
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 760px) and (min-width: 451px) {
     body {
         font-size: 14px;
     }
@@ -219,7 +224,6 @@ footer {
         max-width: 50%;
         min-width: 35%;
         margin: 0 auto;
-        flex: 1 400px;
     }
 }
 @media (hover: none) {
@@ -236,13 +240,12 @@ footer {
     }
 }
 @media only screen and (max-width: 450px) {
-    body {
-        font-size: 16px;
-    }
-    #about {
+    .about-me p {
         width: 80%;
+        font-size: 40px;
     }
     #overlay {
-        width: 80%;
+        min-width: 80%;
+        margin: 0 auto;
     }   
 }
