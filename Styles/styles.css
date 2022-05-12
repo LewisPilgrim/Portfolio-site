@@ -67,6 +67,11 @@ a {
     margin: 2rem;
     margin-left: 6rem;
     margin-top: 0;
+    font-size: 16px;
+}
+.about-me p {
+    font-size: 16px;
+    width: 100%;
 }
 .portrait-img {
     display: inline-block;
@@ -208,7 +213,7 @@ footer {
         display: block;
     }
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 760px){
     body {
         font-size: 14px;
     }
@@ -219,7 +224,6 @@ footer {
         max-width: 50%;
         min-width: 35%;
         margin: 0 auto;
-        flex: 1 400px;
     }
 }
 @media (hover: none) {
@@ -229,20 +233,23 @@ footer {
 }
 @media only screen and (orientation: portrait) {
     header {
-        padding-top: 50%;
+        padding-top: 35%;
     }
     .about-me {
         padding-top: 10%;
     }
 }
 @media only screen and (max-width: 450px) {
-    body {
-        font-size: 16px;
-    }
-    #about {
+    .about-me {
         width: 80%;
+        margin: 0 auto;
+        padding: 3rem 0;
+    }
+    .portrait-img {
+        margin: 0 auto;
     }
     #overlay {
-        width: 80%;
+        min-width: 80%;
+        margin: 0 auto;
     }   
 }
