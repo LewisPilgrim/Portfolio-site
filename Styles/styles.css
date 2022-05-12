@@ -57,12 +57,11 @@ a {
 /* About Me */
 #about {
     padding: 2rem 0;
-    height: 100vh;
+    min-height: 100vh;
 }
 .about-me {
     width: 45%;
     height: auto;
-    display: inline block;
     float: left;
     padding: 3rem;
     margin: 2rem;
@@ -71,7 +70,7 @@ a {
 }
 .portrait-img {
     display: inline-block;
-    margin: 2rem;
+    margin: 2rem auto;
     margin-top: 4rem;
     border: 5px solid darkslategrey;
     border-radius: 50%;
@@ -102,6 +101,7 @@ a {
     margin: 0 auto;
     display: none;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .project {
     color: white;
@@ -123,7 +123,8 @@ a {
     cursor: default;
 }
 #overlay {
-    width: 27.74%;
+    min-width: 27.74%;
+    max-width: 40%;
     height: auto;
     background: rgba(255, 255, 255, 0.6);
     background-size: cover;
@@ -131,7 +132,7 @@ a {
     padding: 1rem;
     vertical-align: top;
     z-index: 2;
-    flex: 1 2 250px;
+    flex: 1 250px;
     opacity: 0.5;
     transition: opacity 1s;
     animation-name: grow;
@@ -163,7 +164,7 @@ a {
     padding: 2rem;
 }
 #contact {
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 }
 .contact-logo {
     display: inline;
@@ -195,4 +196,39 @@ footer {
     padding: 2rem;
     margin-top: 4rem;
     border-top: 0.5rem solid #A26262;
+}
+/* Media Queries */
+@media only screen and (max-width: 1075px) {
+    .about-me {
+        float: none;
+        margin: 0 auto;
+    }
+    .portrait-img {
+        max-width: fit-content;
+        display: block;
+    }
+}
+@media only screen and (max-width: 760px) {
+    body {
+        font-size: 14px;
+    }
+    #projects {
+        flex-flow: column wrap;
+    }
+    #overlay {
+        max-width: 50%;
+        min-width: 35%;
+        margin: 0 auto;
+        flex: 1 400px;
+    }
+}
+@media (hover: none) {
+    #overlay {
+        opacity: 1;
+    }
+}
+@media only screen (orientation: portrait) {
+    header {
+        padding-top: 40%;
+    }
 }
