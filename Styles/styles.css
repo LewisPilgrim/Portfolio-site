@@ -163,6 +163,25 @@ a {
         transform: scale(0.00001);
     }
 }
+.close-button {
+    position: fixed;
+    left: 48%;
+    bottom: 6rem;
+    background-color: white;
+    color: darkslategrey;
+    padding: 1rem 1.2rem;
+    z-index: 3;
+    transition-property: background-color border;
+    transition-duration: 1s;
+    border: 2px solid #A26262;
+    border-radius: 50%;
+    font-weight: 900;
+}
+.close-button:hover {
+    background-color: darkslategrey;
+    color: white;
+    border: 2px solid white;
+}
 /* Contact */
 .contact {
     text-align: center;
@@ -240,6 +259,9 @@ footer {
     }
 }
 @media only screen and (max-width: 450px) {
+    #about {
+        padding: 0;
+    }
     .about-me {
         width: 80%;
         margin: 0 auto;
@@ -251,5 +273,8 @@ footer {
     #overlay {
         min-width: 80%;
         margin: 0 auto;
-    }   
+    }  
+    .logos {
+        margin-bottom: 2rem;
+    }
 }
