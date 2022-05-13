@@ -1,6 +1,7 @@
 // Projects expand button
 const whatIMade = document.getElementById('whatIMade');
 const projects = document.getElementById('projects');
+const closer = document.getElementById('project-close');
 
 function projectExpand() {
     whatIMade.style.display = 'none';
@@ -15,4 +16,4 @@ function projectShrink() {
         projects.style.display = 'none';
     }
 };
-projects.addEventListener('click', projectShrink);
+closer.addEventListener('click', projectShrink);
