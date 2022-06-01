@@ -17,3 +17,21 @@ function projectShrink() {
     }
 };
 closer.addEventListener('click', projectShrink);
+
+// See more minimize on click
+let seeMore = document.getElementById('seemore-button');
+function seeMoreShrink() {
+    if (seeMore.style.display = 'block') {
+        seeMore.style.display = 'none';
+    }
+}
+seeMore.addEventListener('click', seeMoreShrink);
+
+// See more appear on click top button
+const topButton = document.getElementById('top-button');
+function seeMoreGrow() {
+    if (seeMore.style.display = 'none') {
+        seeMore.style.display = 'block';
+    }
+}
+topButton.addEventListener('click', seeMoreGrow);

@@ -93,7 +93,21 @@ a {
     height: 0.5rem;
     width: 90%;
     background-color: darkslategrey;
-    margin: 4rem auto;
+    margin: 4rem 2rem auto;
+}
+#seemore-button {
+    margin: 2rem auto;
+    font-weight: 800px;
+    font-size: 1.5rem;
+    width: 12.5rem;
+    cursor: pointer;
+    color: black;
+    transition-property: color;
+    transition-duration: 1s;
+    
+}
+#seemore-button:hover {
+    color: #A26262;
 }
 /* Projects */
 #project-head {
