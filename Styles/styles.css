@@ -103,7 +103,7 @@ a {
     cursor: pointer;
     color: black;
     transition-property: color;
-    transition-duration: 1s;
+    transition-duration: 2s;
     
 }
 #seemore-button:hover {
