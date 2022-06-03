@@ -192,19 +192,24 @@ a {
 #first-project {
     background: url(../Images/resource-site.jpg);
     height: auto;
-    align-content: center;
+    background-position: center;
+    background-size: contain;
     overflow: hidden;
     display: none;
 }
 #second-project {
     background: url(../Images/dnd-site.jpg);
     height: auto;
+    background-position: center;
+    background-size: contain;
     overflow: hidden;
     display: none;
 }
 #third-project {
     background: url(../Images/recipe-site.jpg);
     height: auto;
+    background-position: center;
+    background-size: contain;
     align-content: center;
     overflow: hidden;
     display: none;
