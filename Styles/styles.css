@@ -132,6 +132,10 @@ a {
     width: 100%;
     height: auto;
 }
+.project video {
+    width: 100%;
+    height: auto;
+}
 .project h3 {
     margin: 1rem;
     cursor: default;
@@ -190,26 +194,32 @@ a {
     animation-duration: 0.3s;
 }
 #first-project {
-    background: url(../Images/resource-site.jpg);
+    background: url(../Images/jammin-video.mp4);
     height: auto;
-    background-position: center;
-    background-size: contain;
     overflow: hidden;
     display: none;
+    background-size: fill;
+    background-position: center;
+}
+#video-popup {
+    position: center;
+    size: contain;
 }
 #second-project {
     background: url(../Images/dnd-site.jpg);
     height: auto;
-    background-position: center;
-    background-size: contain;
+    background-position: contain;
+    background-size: fill;
+    background-repeat: no-repeat;
     overflow: hidden;
     display: none;
 }
 #third-project {
     background: url(../Images/recipe-site.jpg);
     height: auto;
-    background-position: center;
-    background-size: contain;
+    background-position: contain;
+    background-size: fill;
+    background-repeat: no-repeat;
     align-content: center;
     overflow: hidden;
     display: none;
@@ -225,6 +235,7 @@ a {
     text-align: center;
     color: white;
     transition: 1s;
+    z-index: 1;
 }
 .popup-close:hover {
     background-color: #2f4f4f;
