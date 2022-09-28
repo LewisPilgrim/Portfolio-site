@@ -40,9 +40,11 @@ topButton.addEventListener('click', seeMoreGrow);
 const popupOne = document.getElementById('first-project');
 const popupTwo = document.getElementById('second-project');
 const popupThree = document.getElementById('third-project');
+const popupFour = document.getElementById('fourth-project');
 const project1 = document.getElementById('project-1');
 const project2 = document.getElementById('project-2');
 const project3 = document.getElementById('project-3');
+const project4 = document.getElementById('project-4');
 function firstPopup() {
     if (popupOne.style.display = 'none') {
         popupOne.style.display = 'block';
@@ -61,14 +63,22 @@ function thirdPopup() {
     }
 }
 project3.addEventListener('click', thirdPopup);
+function fourthPopup() {
+    if (popupFour.style.display = 'none') {
+        popupFour.style.display = 'block';
+    }
+}
+project4.addEventListener('click', fourthPopup);
+
 const popupCloseButton = document.getElementsByClassName('popup-close');
 function popupClose() {
     for (let i = 0; i < popupCloseButton.length; i++) {
         popupCloseButton[i].addEventListener('click', function() {
-            if (popupOne.style.display === 'block' || popupTwo.style.display === 'block' || popupThree.style.display === 'block') {
+            if (popupOne.style.display === 'block' || popupTwo.style.display === 'block' || popupThree.style.display === 'block' || popupFour.style.display === 'block') {
                 popupOne.style.display = 'none';
                 popupTwo.style.display = 'none';
                 popupThree.style.display = 'none';
+                popupFour.style.display = 'none';
           }});
 }
 }
