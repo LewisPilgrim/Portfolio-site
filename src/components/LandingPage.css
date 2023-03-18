@@ -1,0 +1,16 @@
+header {
+    background-color: var(--green);
+    min-height: 100vh;
+    text-align: center;
+    color: #fff;
+    padding-top: 40vh;
+}
+
+
+header span {
+    color: var(--purple)
+}
+
+header h2 {
+    margin-bottom: 2rem;
+}

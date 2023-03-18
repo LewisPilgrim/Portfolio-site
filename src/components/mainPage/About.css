@@ -1,0 +1,33 @@
+.icons {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+.about img {
+    margin: auto 1rem;
+    border-radius: 50%;
+    border: 5px solid var(--green);
+    width: 300px;
+    height: 300px;
+}
+
+.about-text {
+    margin: auto 0;
+    max-width: 450px;
+    color: #6e6e6e;
+}
+
+.about-text h2 {
+    color: var(--purple);
+    font-size: 62px;
+}

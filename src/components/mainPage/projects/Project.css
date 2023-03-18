@@ -1,0 +1,68 @@
+.project-card {
+    width: 350px;
+    max-width: 400px;
+    height: 160px;
+    background-color: var(--green);
+    color: #fff;
+    margin: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+}
+
+.project-card:hover {
+    border: 2px solid var(--purple);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.project-popup {
+    padding: 1rem;
+    width: 80vw;
+    min-height: 80vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 3px solid var(--green);
+    border-radius: 5px;
+    color: #fff;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    animation: growIn 0.2s linear;
+}
+
+@keyframes growIn {
+    0% {
+        scale: 0;
+    }
+    100% {
+        scale: 1;
+    }
+}
+
+.project-popup h3 {
+    padding: 1rem;
+}
+
+.project-popup img {
+    max-height: 50vh;
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.project-popup span {
+    color: var(--purple);
+    font-weight: 900;
+}
+
+.project-popup button {
+    margin: 15px;
+}
+
+.card-overlay {
+    background-color: transparent;
+}
+
+.card-overlay:hover {
+    
+    background-color: rgba(0, 0, 0, 0.8);
+}
