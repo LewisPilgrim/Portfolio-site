@@ -1,4 +1,4 @@
-import image1 from './Images/pokedex-screenshot-top'
+import image1 from './lewispilgrim.github.io/Images/pokedex-screenshot-top'
 
 
 export const projectsData = [
