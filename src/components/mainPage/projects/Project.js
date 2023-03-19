@@ -10,6 +10,7 @@ const Project = ({ name, img, description, techUsed }) => {
 
   return (
     <div>
+      <img src="../../../Images/dnd-site-screenshot.jpg" alt="test" />
       {isOpen === true ? (
         <div className="project-card" onClick={toggleOpen}>
           <div className="card-overlay">
