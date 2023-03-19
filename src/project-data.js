@@ -1,4 +1,4 @@
-import image1 from './static/media/pokedex-screenshot-top.4125d2bc.jpg';
+import image1 from '../../../Images/pokedex-screenshot-top.jpg';
 import image2 from './Images/reddit-lite-screenshot-wallpapers.jpg';
 
 
