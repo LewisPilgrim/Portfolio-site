@@ -13,7 +13,7 @@ const Project = ({ name, img, description, techUsed }) => {
       {isOpen === true ? (
         <div className="project-card" onClick={toggleOpen}>
           <div className="card-overlay">
-      <img src="../../../Images/dnd-site-screenshot.jpg" alt="test" />
+            <img src="../../../Images/dnd-site-screenshot.jpg" alt="test" />
             <img src={img} alt={name} width="100%" title={name} />
           </div>
         </div>
@@ -23,7 +23,9 @@ const Project = ({ name, img, description, techUsed }) => {
           <img src={img} alt={name} title={name} />
           <p>{description}</p>
           <br />
-          <p><span>Tech Used</span>: {techUsed}</p>
+          <p>
+            <span>Tech Used</span>: {techUsed}
+          </p>
           <button className="--btn" onClick={toggleOpen} title="Close">
             Close
           </button>
