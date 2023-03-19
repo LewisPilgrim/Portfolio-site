@@ -1,21 +1,21 @@
 {
-  "main.css": "/static/css/main.595703bc.chunk.css",
-  "main.js": "/static/js/main.cfd5c17b.chunk.js",
-  "main.js.map": "/static/js/main.cfd5c17b.chunk.js.map",
-  "static/js/1.046e0513.chunk.js": "/static/js/1.046e0513.chunk.js",
-  "static/js/1.046e0513.chunk.js.map": "/static/js/1.046e0513.chunk.js.map",
-  "static/js/2.600f2fdf.chunk.js": "/static/js/2.600f2fdf.chunk.js",
-  "static/js/2.600f2fdf.chunk.js.map": "/static/js/2.600f2fdf.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.4c03d365.js",
-  "runtime~main.js.map": "/static/js/runtime~main.4c03d365.js.map",
-  "static/media/portrait.jpg": "/static/media/portrait.8353534f.jpg",
-  "static/media/pokedex-screenshot-top.jpg": "/static/media/pokedex-screenshot-top.4125d2bc.jpg",
-  "static/media/reddit-lite-screenshot-wallpapers.jpg": "/static/media/reddit-lite-screenshot-wallpapers.f6dd2f62.jpg",
-  "static/media/jammming-screenshot.jpg": "/static/media/jammming-screenshot.652033b9.jpg",
-  "static/media/login-form-screenshot.jpg": "/static/media/login-form-screenshot.2ac57302.jpg",
-  "static/media/dnd-site-screenshot.jpg": "/static/media/dnd-site-screenshot.daa5e60c.jpg",
-  "static/css/main.595703bc.chunk.css.map": "/static/css/main.595703bc.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.cf848aed49f3b33bdabf75caf68f58e7.js": "/precache-manifest.cf848aed49f3b33bdabf75caf68f58e7.js",
-  "service-worker.js": "/service-worker.js"
+  "files": {
+    "main.css": "/static/css/main.b6409e0c.css",
+    "main.js": "/static/js/main.502d71f5.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/reddit-lite-screenshot-wallpapers.jpg": "/static/media/reddit-lite-screenshot-wallpapers.32b8e518ac653ca3a71f.jpg",
+    "static/media/dnd-site-screenshot.jpg": "/static/media/dnd-site-screenshot.1f349fb02c15ae24c11e.jpg",
+    "static/media/jammming-screenshot.jpg": "/static/media/jammming-screenshot.0bac9408ab7b17d0c4ec.jpg",
+    "static/media/pokedex-screenshot-top.jpg": "/static/media/pokedex-screenshot-top.8f7efef4aa67d67dd6b0.jpg",
+    "static/media/login-form-screenshot.jpg": "/static/media/login-form-screenshot.abb7ae4f4cb9587eae8a.jpg",
+    "static/media/portrait.jpg": "/static/media/portrait.ecd31c5f70fc4f36d39c.jpg",
+    "index.html": "/index.html",
+    "main.b6409e0c.css.map": "/static/css/main.b6409e0c.css.map",
+    "main.502d71f5.js.map": "/static/js/main.502d71f5.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6409e0c.css",
+    "static/js/main.502d71f5.js"
+  ]
 }
