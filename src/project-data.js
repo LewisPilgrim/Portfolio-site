@@ -1,4 +1,5 @@
-import image1 from './lewispilgrim.github.io/Images/pokedex-screenshot-top'
+import image1 from './lewispilgrim.github.io/Images/pokedex-screenshot-top.jpg';
+import image2 from './Images/reddit-lite-screenshot-wallpapers.jpg';
 
 
 export const projectsData = [
@@ -12,7 +13,7 @@ export const projectsData = [
     {
         name: "Reddit Lite",
         id: 2,
-        img: "./Images/reddit-lite-screenshot-wallpapers.jpg",
+        img: image2,
         description: "An app which links to the Reddit API and displays the top posts from the subreddit that has been searched for. Upvotes of a post can be seen as well as how many comments there are on it. The links for 'See More' and 'Comments' will take the user to the relevant part of the post's page on the Reddit site. I tried to keep the visual appearance of the site as close to that of the official Reddit site as I could so that it would make sense to users.",
         techUsed: "React, Redux, CSS, HTML, Reddit json API"
     },
