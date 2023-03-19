@@ -1,8 +1,8 @@
-import image1 from '../../../images/pokedex-screenshot-top.jpg';
-import image2 from '../../../images/reddit-lite-screenshot-wallpapers.jpg';
-import image3 from '../../../images/jammming-screenshot.jpg';
-import image4 from '../../../images/login-form-screenshot.jpg';
-import image5 from '../../../images/dnd-site-screenshot.jpg';
+import image1 from '../../../Images/pokedex-screenshot-top.jpg';
+import image2 from '../../../Images/reddit-lite-screenshot-wallpapers.jpg';
+import image3 from '../../../Images/jammming-screenshot.jpg';
+import image4 from '../../../Images/login-form-screenshot.jpg';
+import image5 from '../../../Images/dnd-site-screenshot.jpg';
 
 
 export const projectsData = [
