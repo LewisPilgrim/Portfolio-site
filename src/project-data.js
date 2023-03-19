@@ -1,5 +1,8 @@
 import image1 from './Images/pokedex-screenshot-top.jpg';
 import image2 from './Images/reddit-lite-screenshot-wallpapers.jpg';
+import image3 from './Images/jammming-screenshot.jpg';
+import image4 from './Images/login-form-screenshot.jpg';
+import image5 from './Images/dnd-site-screenshot.jpg';
 
 
 export const projectsData = [
@@ -20,21 +23,21 @@ export const projectsData = [
     {
         name: "Jammming",
         id: 3,
-        img: "./Images/jammming-screenshot.jpg?raw=true",
+        img: image3,
         description: "As one of the projects on my Codecademy course i made a React application which allows users to make playlists for Spotify. This project made use of the Spotify API to allow users to log in, search for an artist or song on the Spotify database, add tracks to a custom playlist and then add that playlist to their Spotify account. There was a lot of work put into linking up the site with the Spotify API and allowing users to login.",
         techUsed: "React, CSS, HTML, Spotify API"
     },
     {
         name: "Login Form",
         id: 4,
-        img: "./Images/login-form-screenshot.jpg",
+        img: image4,
         description: "This was a small project from a Udemy course that I did which was to create a Login screen in React which allows users to move between different sections with animated transitions. There are three pages: Login, Register and Reset which can be moved between seamlessly using the links and buttons. There is a functioning password reveal button and a password strength helper on the Register screen.",
         techUsed: "React, SASS, CSS, HTML"
     },
     {
         name: "East Grinstead DnD",
         id: 5,
-        img: "./Images/dnd-site-screenshot.jpg",
+        img: image5,
         description: "One of my earlier projects, the aim was to create a site using HTML and CSS which is aesthetically pleasing and shows off my visual design skills.",
         techUsed: "HTML, CSS"
     }
