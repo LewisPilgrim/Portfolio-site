@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.595703bc.chunk.css",
-  "main.js": "/static/js/main.0b6ef92b.chunk.js",
-  "main.js.map": "/static/js/main.0b6ef92b.chunk.js.map",
+  "main.js": "/static/js/main.86e980bc.chunk.js",
+  "main.js.map": "/static/js/main.86e980bc.chunk.js.map",
   "static/js/1.046e0513.chunk.js": "/static/js/1.046e0513.chunk.js",
   "static/js/1.046e0513.chunk.js.map": "/static/js/1.046e0513.chunk.js.map",
   "static/js/2.600f2fdf.chunk.js": "/static/js/2.600f2fdf.chunk.js",
@@ -16,6 +16,6 @@
   "static/media/dnd-site-screenshot.jpg": "/static/media/dnd-site-screenshot.daa5e60c.jpg",
   "static/css/main.595703bc.chunk.css.map": "/static/css/main.595703bc.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.4e97d811375eb523825326035f19b683.js": "/precache-manifest.4e97d811375eb523825326035f19b683.js",
+  "precache-manifest.a9619723e292246f2371027dd2374bad.js": "/precache-manifest.a9619723e292246f2371027dd2374bad.js",
   "service-worker.js": "/service-worker.js"
 }

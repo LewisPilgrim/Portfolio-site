@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0b6ef92ba314d88231c4",
+    "revision": "86e980bc7d170822183e",
     "url": "/static/css/main.595703bc.chunk.css"
   },
   {
-    "revision": "0b6ef92ba314d88231c4",
-    "url": "/static/js/main.0b6ef92b.chunk.js"
+    "revision": "86e980bc7d170822183e",
+    "url": "/static/js/main.86e980bc.chunk.js"
   },
   {
     "revision": "046e05133628af1d8cc8",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/dnd-site-screenshot.daa5e60c.jpg"
   },
   {
-    "revision": "e21030d172483f8e8d1dc883592b583b",
+    "revision": "425ebdc00d5ff3a596a847ccc561f5b8",
     "url": "/index.html"
   }
 ];
