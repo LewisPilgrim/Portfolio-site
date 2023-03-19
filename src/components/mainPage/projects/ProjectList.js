@@ -4,7 +4,7 @@ import './ProjectList.css';
 import { projectsData } from "../../../project-data";
 
 const ProjectList = () => {
-  const [projects, setProjects] = useState(projectsData);
+  const [projects] = useState(projectsData);
 
   return (
     <div className="project-list">

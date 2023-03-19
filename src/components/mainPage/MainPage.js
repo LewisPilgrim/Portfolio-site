@@ -12,10 +12,10 @@ const MainPage = () => {
   const topRef = React.createRef();
 
   const scrollToAbout = () => {
-    aboutRef.current?.scrollIntoView({ behavior: "smooth" });
+    aboutRef.current.scrollIntoView({ behavior: "smooth" });
   };
   const scrollToTop = () => {
-    topRef.current?.scrollIntoView({ behavior: "smooth" });
+    topRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
