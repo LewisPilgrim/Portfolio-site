@@ -20,7 +20,7 @@ export const projectsData = [
     {
         name: "Jammming",
         id: 3,
-        img: "./Images/jammming-screenshot.jpg",
+        img: "./Images/jammming-screenshot.jpg?raw=true",
         description: "As one of the projects on my Codecademy course i made a React application which allows users to make playlists for Spotify. This project made use of the Spotify API to allow users to log in, search for an artist or song on the Spotify database, add tracks to a custom playlist and then add that playlist to their Spotify account. There was a lot of work put into linking up the site with the Spotify API and allowing users to login.",
         techUsed: "React, CSS, HTML, Spotify API"
     },
