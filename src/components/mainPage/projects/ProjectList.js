@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Project from "./Project";
 import './ProjectList.css';
-import { projectsData } from "../../../project-data";
+import { projectsData } from "./project-data";
 
 const ProjectList = () => {
   const [projects] = useState(projectsData);
