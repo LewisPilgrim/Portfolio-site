@@ -1,17 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Project.css";
 
-const Project = ({ name, img, description, techUsed }) => {
-  const [isOpen, setIsOpen] = useState(true);
+const Project = ({ name, img, description, techUsed, isOpen, openProject, closeProject, id, openProjects }) => {
 
-  const toggleOpen = () => {
-    setIsOpen(!isOpen);
-  };
+
 
   return (
     <div>
-      {isOpen === true ? (
-        <div className="project-card" onClick={toggleOpen}>
+      {!openProjects.includes(id) ? (
+        <div className="project-card" onClick={() => openProject(id)}>
           <div className="card-overlay">
             <img src={img} alt={name} width="100%" title={name} />
           </div>
@@ -25,7 +22,7 @@ const Project = ({ name, img, description, techUsed }) => {
           <p>
             <span>Tech Used</span>: {techUsed}
           </p>
-          <button className="--btn" onClick={toggleOpen} title="Close">
+          <button className="--btn" onClick={closeProject} title="Close">
             Close
           </button>
         </div>

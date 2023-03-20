@@ -31,3 +31,9 @@
     color: var(--purple);
     font-size: 62px;
 }
+
+@media screen and (max-width < 450px) {
+    .about {
+        margin: 3rem auto;
+    }
+}

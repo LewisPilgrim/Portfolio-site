@@ -2,7 +2,6 @@ import React from "react";
 import About from "./About";
 import ProjectList from "./projects/ProjectList";
 import "./MainPage.css";
-import SeeMoreBtn from "./SeeMoreBtn";
 import ScrollBtn from "./ScrollBtn";
 import { AiFillLinkedin, AiFillPhone } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
@@ -21,8 +20,7 @@ const MainPage = () => {
   return (
     <div className="page-window" ref={topRef}>
       <div className="project-section">
-        <ProjectList />
-        <SeeMoreBtn scrollToAbout={scrollToAbout} />
+        <ProjectList scrollToAbout={scrollToAbout} />
         <hr />
       </div>
       <div ref={aboutRef}></div>
@@ -31,15 +29,15 @@ const MainPage = () => {
       <div className="contact">
         <h2>Contact me</h2>
         <span>
-          <MdEmail color="#2f4f4f" size={19} title="Email" />
+          <MdEmail color="#2f4f4f" size={19} title="Email" id="icon" />
           <h4>lewis.pilgrim0@hotmail.co.uk</h4>
         </span>
         <span>
-          <AiFillPhone color="#2f4f4f" size={19} title="Phone" />
+          <AiFillPhone color="#2f4f4f" size={19} title="Phone" id="icon" />
           <h4>07975 888183</h4>
         </span>
         <span>
-          <AiFillLinkedin color="#2f4f4f" size={19} title="LinkedIn" />
+          <AiFillLinkedin color="#2f4f4f" size={19} title="LinkedIn" id="icon" />
           <h4>https://www.linkedin.com/in/lewis-pilgrim-73ab08236/</h4>
         </span>
       </div>
