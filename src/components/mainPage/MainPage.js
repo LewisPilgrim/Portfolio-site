@@ -30,7 +30,7 @@ const MainPage = () => {
         <h2>Contact me</h2>
         <span>
           <MdEmail color="#2f4f4f" size={19} title="Email" id="icon" />
-          <h4>lewis.pilgrim0@hotmail.co.uk</h4>
+          <h4><a href="mailto:lewis.pilgrim0@hotmail.co.uk">lewis.pilgrim0@hotmail.co.uk</a></h4>
         </span>
         <span>
           <AiFillPhone color="#2f4f4f" size={19} title="Phone" id="icon" />
@@ -38,7 +38,7 @@ const MainPage = () => {
         </span>
         <span>
           <AiFillLinkedin color="#2f4f4f" size={19} title="LinkedIn" id="icon" />
-          <h4>https://www.linkedin.com/in/lewis-pilgrim-73ab08236/</h4>
+          <h4><a href="https://www.linkedin.com/in/lewis-pilgrim-73ab08236/">LinkedIn</a></h4>
         </span>
       </div>
       <ScrollBtn scrollToTop={scrollToTop} />
