@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.48bc34dd.css",
+    "main.css": "/static/css/main.aeacc4ff.css",
     "main.js": "/static/js/main.7af22130.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/dnd-site-screenshot.jpg": "/static/media/dnd-site-screenshot.a58e8318930f15406b92.jpg",
@@ -10,12 +10,12 @@
     "static/media/login-form-screenshot.jpg": "/static/media/login-form-screenshot.abb7ae4f4cb9587eae8a.jpg",
     "static/media/portrait.jpg": "/static/media/portrait.ecd31c5f70fc4f36d39c.jpg",
     "index.html": "/index.html",
-    "main.48bc34dd.css.map": "/static/css/main.48bc34dd.css.map",
+    "main.aeacc4ff.css.map": "/static/css/main.aeacc4ff.css.map",
     "main.7af22130.js.map": "/static/js/main.7af22130.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48bc34dd.css",
+    "static/css/main.aeacc4ff.css",
     "static/js/main.7af22130.js"
   ]
 }
