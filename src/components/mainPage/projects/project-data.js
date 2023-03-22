@@ -10,21 +10,21 @@ export const projectsData = [
         name: "Pokedex",
         id: 1,
         img: image1,
-        description: "An app built to show Pokemon and their stats when searched by either name or id. The search fetches data from the Pokedex API and returns the name, type and abilities of the relevant Pokemon as well as an image of it. Performance was a key aspect of this project and the site achieved a Lighthouse score of 99 on desktop and 86 on mobile.",
+        description: "An app built to show Pokemon and their stats when searched by either name or ID. The search fetches data from the Pokedex API and returns the name, type and abilities of the relevant Pokemon as well as an image of it. Performance was a key aspect of this project and the site achieved a Lighthouse score of 99 on desktop and 86 on mobile.",
         techUsed: "React, Redux, CSS, HTML, Pokemon API"
     },
     {
         name: "Reddit Lite",
         id: 2,
         img: image2,
-        description: "An app which links to the Reddit API and displays the top posts from the subreddit that has been searched for. Upvotes of a post can be seen as well as how many comments there are on it. The links for 'See More' and 'Comments' will take the user to the relevant part of the post's page on the Reddit site. I tried to keep the visual appearance of the site as close to that of the official Reddit site as I could so that it would make sense to users.",
+        description: "An app which links to the Reddit API and displays the top posts from the subreddit that has been searched for. Upvotes of a post can be seen, as well as how many comments there are on it. The links for 'See More' and 'Comments' will take the user to the relevant part of the post's page on the Reddit site. I tried to keep the visual appearance of the site as close to that of the official Reddit site as I could so that it would make sense to users.",
         techUsed: "React, Redux, CSS, HTML, Reddit json API"
     },
     {
         name: "Jammming",
         id: 3,
         img: image3,
-        description: "As one of the projects on my Codecademy course i made a React application which allows users to make playlists for Spotify. This project made use of the Spotify API to allow users to log in, search for an artist or song on the Spotify database, add tracks to a custom playlist and then add that playlist to their Spotify account. There was a lot of work put into linking up the site with the Spotify API and allowing users to login.",
+        description: "As one of the projects on my Codecademy course I made a React application which allows users to make playlists for Spotify. This project made use of the Spotify API to allow users to log in, search for an artist or song on the Spotify database, add tracks to a custom playlist and then add that playlist to their Spotify account. There was a lot of work put into linking up the site with the Spotify API and allowing users to log in.",
         techUsed: "React, CSS, HTML, Spotify API"
     },
     {
@@ -38,7 +38,7 @@ export const projectsData = [
         name: "East Grinstead DnD",
         id: 5,
         img: image5,
-        description: "One of my earlier projects, the aim was to create a site using HTML and CSS which is aesthetically pleasing and shows off my visual design skills.",
+        description: "One of my earlier projects, the aim was to create a site using HTML and CSS which is aesthetically pleasing and showcases my visual design skills.",
         techUsed: "HTML, CSS"
     }
 ]

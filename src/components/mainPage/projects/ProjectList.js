@@ -27,7 +27,7 @@ const ProjectList = ({scrollToAbout}) => {
     <div className="project-list">
       <h2>Projects</h2>
       <p>
-        Here are some of the projects that I have made, click on them to find
+        Here are some of the projects that I have made. Click on them to find
         out more.
       </p>
         <SeeMoreBtn scrollToAbout={scrollToAbout} />
