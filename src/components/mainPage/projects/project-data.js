@@ -38,7 +38,7 @@ export const projectsData = [
         name: "East Grinstead DnD",
         id: 5,
         img: image5,
-        description: "One of my earlier projects, the aim was to create a site using HTML and CSS which is aesthetically pleasing and showcases my visual design skills.",
+        description: "One of my earlier projects, the aim was to create a site using HTML and CSS which is aesthetically pleasing and showcases my visual design skills. I wanted to make use of a large hero image which draws the user in and signifies the start of their adventure. I kept the design simple and used a very limited colour palette, picking purple to stand out against the green of the forest.",
         techUsed: "HTML, CSS"
     }
 ]
