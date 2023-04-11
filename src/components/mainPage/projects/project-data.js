@@ -1,4 +1,4 @@
-import image1 from '../../../Images/pokedex-screenshot-top.jpg';
+import image1 from '../../../Images/pokedex-screenshot.jpg';
 import image2 from '../../../Images/reddit-lite-screenshot-wallpapers.jpg';
 import image3 from '../../../Images/jammming-screenshot.jpg';
 import image4 from '../../../Images/login-form-screenshot.jpg';
