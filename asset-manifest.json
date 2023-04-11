@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.aeacc4ff.css",
-    "main.js": "/static/js/main.b4b051aa.js",
+    "main.js": "/static/js/main.f74abaf7.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/dnd-site-screenshot.jpg": "/static/media/dnd-site-screenshot.a58e8318930f15406b92.jpg",
     "static/media/reddit-lite-screenshot-wallpapers.jpg": "/static/media/reddit-lite-screenshot-wallpapers.c558db2d2bacaefc2f90.jpg",
     "static/media/jammming-screenshot.jpg": "/static/media/jammming-screenshot.0bac9408ab7b17d0c4ec.jpg",
-    "static/media/pokedex-screenshot-top.jpg": "/static/media/pokedex-screenshot-top.b47ecffa201b6d7611cc.jpg",
-    "static/media/login-form-screenshot.jpg": "/static/media/login-form-screenshot.abb7ae4f4cb9587eae8a.jpg",
+    "static/media/pokedex-screenshot.jpg": "/static/media/pokedex-screenshot.8cc3db5f2fcdeea3f7ed.jpg",
+    "static/media/login-form-screenshot.jpg": "/static/media/login-form-screenshot.3dea2e5720c46b6ef09f.jpg",
     "static/media/portrait.jpg": "/static/media/portrait.ecd31c5f70fc4f36d39c.jpg",
     "index.html": "/index.html",
     "main.aeacc4ff.css.map": "/static/css/main.aeacc4ff.css.map",
-    "main.b4b051aa.js.map": "/static/js/main.b4b051aa.js.map",
+    "main.f74abaf7.js.map": "/static/js/main.f74abaf7.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aeacc4ff.css",
-    "static/js/main.b4b051aa.js"
+    "static/js/main.f74abaf7.js"
   ]
 }
