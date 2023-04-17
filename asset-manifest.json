@@ -1,21 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.aeacc4ff.css",
-    "main.js": "/static/js/main.f74abaf7.js",
+    "main.css": "/static/css/main.3a5685dc.css",
+    "main.js": "/static/js/main.e74974a5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/dukes-suits.png": "/static/media/dukes-suits.08e1cfdcec936948a96b.png",
+    "static/media/RSI-Aurora-MR-poster.jpg": "/static/media/RSI-Aurora-MR-poster.bfb5cf1b4b6b1a86dc0a.jpg",
+    "static/media/gaming-supplement.png": "/static/media/gaming-supplement.0185ce53329eb117404c.png",
     "static/media/dnd-site-screenshot.jpg": "/static/media/dnd-site-screenshot.a58e8318930f15406b92.jpg",
+    "static/media/Capsule-Capacity-Datasheet.png": "/static/media/Capsule-Capacity-Datasheet.e2a6dd80d0646ddb98bb.png",
+    "static/media/Extracts-datasheet.png": "/static/media/Extracts-datasheet.3f5cdc9fddb1a39b8c1b.png",
+    "static/media/Purity-Datasheet.png": "/static/media/Purity-Datasheet.a87c86c42d18f024590c.png",
+    "static/media/Restrictions-datasheet.png": "/static/media/Restrictions-datasheet.e196e0aebb6205436e20.png",
     "static/media/reddit-lite-screenshot-wallpapers.jpg": "/static/media/reddit-lite-screenshot-wallpapers.c558db2d2bacaefc2f90.jpg",
+    "static/media/mushroom-supplement.png": "/static/media/mushroom-supplement.b36e1da74ad058c95a43.png",
     "static/media/jammming-screenshot.jpg": "/static/media/jammming-screenshot.0bac9408ab7b17d0c4ec.jpg",
     "static/media/pokedex-screenshot.jpg": "/static/media/pokedex-screenshot.8cc3db5f2fcdeea3f7ed.jpg",
     "static/media/login-form-screenshot.jpg": "/static/media/login-form-screenshot.3dea2e5720c46b6ef09f.jpg",
     "static/media/portrait.jpg": "/static/media/portrait.ecd31c5f70fc4f36d39c.jpg",
     "index.html": "/index.html",
-    "main.aeacc4ff.css.map": "/static/css/main.aeacc4ff.css.map",
-    "main.f74abaf7.js.map": "/static/js/main.f74abaf7.js.map",
+    "main.3a5685dc.css.map": "/static/css/main.3a5685dc.css.map",
+    "main.e74974a5.js.map": "/static/js/main.e74974a5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aeacc4ff.css",
-    "static/js/main.f74abaf7.js"
+    "static/css/main.3a5685dc.css",
+    "static/js/main.e74974a5.js"
   ]
 }
