@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Project from "./Project";
+import DesignProject from "../design/DesignProject";
 import './ProjectList.css';
 import { projectsData } from "./project-data";
+import { designProjects } from "../design/design-project-data";
 import SeeMoreBtn from "../SeeMoreBtn";
 
 const ProjectList = ({scrollToAbout}) => {
@@ -31,10 +33,21 @@ const ProjectList = ({scrollToAbout}) => {
         out more.
       </p>
         <SeeMoreBtn scrollToAbout={scrollToAbout} />
+        <div className="projects-box">
+        <h3>Development Projects</h3>
       <div className="projects">
         {projects.map((project) => {
           return <Project key={project.id} name={project.name} img={project.img} description={project.description} techUsed={project.techUsed} id={project.id} isOpen={isOpen} openProject={openProject} closeProject={closeProject} openProjects={openProjects} />
         })}
+      </div>
+      </div>
+      <div className="projects-box">
+        <h3>DesignProjects</h3>
+      <div className="projects">
+        {designProjects.map((project) => {
+          return <DesignProject key={project.id} name={project.name} img={project.img} description={project.description} id={project.id} isOpen={isOpen} openProject={openProject} closeProject={closeProject} openProjects={openProjects} />
+        })}
+      </div>
       </div>
     </div>
   );

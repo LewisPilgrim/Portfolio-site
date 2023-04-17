@@ -3,6 +3,7 @@ import image2 from '../../../Images/reddit-lite-screenshot-wallpapers.jpg';
 import image3 from '../../../Images/jammming-screenshot.jpg';
 import image4 from '../../../Images/login-form-screenshot.jpg';
 import image5 from '../../../Images/dnd-site-screenshot.jpg';
+import image6 from '../../../Images/dukes-suits.png';
 
 
 export const projectsData = [
@@ -40,5 +41,12 @@ export const projectsData = [
         img: image5,
         description: "One of my earlier projects, the aim was to create a site using HTML and CSS which is aesthetically pleasing and showcases my visual design skills. I wanted to make use of a large hero image which draws the user in and signifies the start of their adventure. I kept the design simple and used a very limited colour palette, picking purple to stand out against the green of the forest.",
         techUsed: "HTML, CSS"
+    },
+    {
+        name: "Dukes",
+        id: 6,
+        img: image6,
+        description: "My first attempt at creating an e-commerce site, this React project has a primary focus on visuals. I will be continuing the project to add in a search bar so that users can search for particular products and a login feature which will allow users to save products to their wishlist.",
+        techUsed: "React, HTML, CSS"
     }
 ]
