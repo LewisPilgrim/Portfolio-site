@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.3a5685dc.css",
-    "main.js": "/static/js/main.e74974a5.js",
+    "main.js": "/static/js/main.7992b3dc.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Front-back-final.png": "/static/media/Front-back-final.d6484de77288defce9f8.png",
+    "static/media/Middle-final.png": "/static/media/Middle-final.8f6d43d5124f0aca0b74.png",
     "static/media/dukes-suits.png": "/static/media/dukes-suits.08e1cfdcec936948a96b.png",
     "static/media/RSI-Aurora-MR-poster.jpg": "/static/media/RSI-Aurora-MR-poster.bfb5cf1b4b6b1a86dc0a.jpg",
     "static/media/gaming-supplement.png": "/static/media/gaming-supplement.0185ce53329eb117404c.png",
@@ -19,11 +21,11 @@
     "static/media/portrait.jpg": "/static/media/portrait.ecd31c5f70fc4f36d39c.jpg",
     "index.html": "/index.html",
     "main.3a5685dc.css.map": "/static/css/main.3a5685dc.css.map",
-    "main.e74974a5.js.map": "/static/js/main.e74974a5.js.map",
+    "main.7992b3dc.js.map": "/static/js/main.7992b3dc.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a5685dc.css",
-    "static/js/main.e74974a5.js"
+    "static/js/main.7992b3dc.js"
   ]
 }
