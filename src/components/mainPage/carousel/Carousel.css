@@ -1,0 +1,39 @@
+.carousel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel button {
+    background-color: transparent;
+    color: #fff;
+    width: 2rem;
+    font-size: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.carousel button:hover {
+    font-size: 40px;
+}
+
+.faded {
+    color: #666 !important;
+}
+
+.current-page {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.dot {
+    height: 1rem;
+    width: 1rem;
+    margin: 0 0.25rem;
+    border-radius: 50%;
+    background-color: #888;
+}
+
+.dot-active {
+    background-color: #fff !important;
+}

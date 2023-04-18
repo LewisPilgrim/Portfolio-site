@@ -37,7 +37,7 @@ const ProjectList = ({scrollToAbout}) => {
         <h3>Development Projects</h3>
       <div className="projects">
         {projects.map((project) => {
-          return <Project key={project.id} name={project.name} img={project.img} description={project.description} techUsed={project.techUsed} id={project.id} isOpen={isOpen} openProject={openProject} closeProject={closeProject} openProjects={openProjects} />
+          return <Project key={project.id} name={project.name} images={project.images} description={project.description} techUsed={project.techUsed} id={project.id} isOpen={isOpen} openProject={openProject} closeProject={closeProject} openProjects={openProjects} />
         })}
       </div>
       </div>
@@ -45,7 +45,7 @@ const ProjectList = ({scrollToAbout}) => {
         <h3>DesignProjects</h3>
       <div className="projects">
         {designProjects.map((project) => {
-          return <DesignProject key={project.id} name={project.name} img={project.img} description={project.description} id={project.id} isOpen={isOpen} openProject={openProject} closeProject={closeProject} openProjects={openProjects} />
+          return <DesignProject key={project.id} name={project.name} images={project.images} description={project.description} id={project.id} isOpen={isOpen} openProject={openProject} closeProject={closeProject} openProjects={openProjects} />
         })}
       </div>
       </div>

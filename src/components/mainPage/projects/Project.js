@@ -1,22 +1,24 @@
 import React from "react";
 import "./Project.css";
+import Carousel from "../carousel/Carousel";
 
-const Project = ({ name, img, description, techUsed, isOpen, openProject, closeProject, id, openProjects }) => {
+const Project = ({ name, images, description, techUsed, isOpen, openProject, closeProject, id, openProjects }) => {
 
-
+console.log(images);
 
   return (
     <div>
       {!openProjects.includes(id) ? (
         <div className="project-card" onClick={() => openProject(id)}>
           <div className="card-overlay">
-            <img src={img} alt={name} width="100%" title={name} />
+            <img src={images[0]} alt={name} width="100%" title={name} />
           </div>
         </div>
       ) : (
         <div className="project-popup">
           <h3>{name}</h3>
-          <img src={img} alt={name} title={name} />
+          <Carousel carouselItems={images} alt={name} title={name} />
+          <br />
           <p>{description}</p>
           <br />
           <p>
