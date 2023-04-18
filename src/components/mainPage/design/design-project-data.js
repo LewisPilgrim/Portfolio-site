@@ -5,6 +5,8 @@ import purityImg from "../../../Images/Purity-Datasheet.png";
 import restrictionsImg from "../../../Images/Restrictions-datasheet.png";
 import gamingImg from "../../../Images/gaming-supplement.png";
 import mushroomImg from "../../../Images/mushroom-supplement.png";
+import leafletFrontImg from "../../../Images/Front-back-final.png";
+import leafletBackImg from "../../../Images/Middle-final.png";
 
 export const designProjects = [
     {
@@ -47,6 +49,18 @@ export const designProjects = [
         id: 37,
         name: 'Supplement Label: Mushroom Supplement',
         img: mushroomImg,
-        description: "Professional Project: Another supplement label design, I opted for a much cleaner, simpler design for a cleaner simpler product. The labels are designed using official MHRA documents to ensure that they would be legally compliant if there were a real product and this includes the use of logos in the required scale and a white box for batch numbers and use by dates Created in Figma.."
+        description: "Professional Project: Another supplement label design, I opted for a much cleaner, simpler design for a cleaner simpler product. The labels are designed using official MHRA documents to ensure that they would be legally compliant if there were a real product and this includes the use of logos in the required scale and a white box for batch numbers and use by dates Created in Figma."
+    },
+    {
+        id: 38,
+        name: 'G&G Vitamins Basic Data Handout Front/Back',
+        img: leafletFrontImg,
+        description: "Professional Project: The task was to design a marketing leaflet that could be handed to customers at business shows and sent to them with other promotional material. The front and back of the leaflet need to convey the key information within 3-5 seconds so eye catching icons and large text was used. Created in Figma."
+    },
+    {
+        id: 39,
+        name: 'G&G Vitamins Basic Data Handout Middle',
+        img: leafletBackImg,
+        description: "Professional Project: The inside of the marketing leaflet shown in the previous project. The information inside was to expand on the initial points that are raised on the front and back of the leaflet and to convince any readers that are not yet decided whether they should get in contact. Images were employed to draw readers to the relevant sections for them and copy was kept concise to peak interest and prompt contact. Created in Figma."
     },
 ]
