@@ -12,12 +12,13 @@ const Carousel = ({ carouselItems, alt, title }) => {
     const handleNext = ()=> {
         return index < carouselItems.length - 1 ? setIndex(index + 1) : '';
     }
+    console.log(carouselItems);
 
   return (
     <>
     <div className='carousel'>
       <button onClick={handlePrevious} className={index ===0 ? "faded" : ''}><AiFillCaretLeft color={index === 0 ? "#888" : "#fff"}/></button>
-      <img src={carouselItems[index]} alt={alt} title={title} />
+      {carouselItems[index].includes("video") ? <video controls><source src={carouselItems[index]} type="video/mp4" /></video> : <img src={carouselItems[index]} alt={alt} title={title} />}
       <button onClick={handleNext} className={index >= carouselItems.length - 1 ? "faded" : ''}><AiFillCaretRight color={index >= carouselItems.length - 1 ? "#888" : "#fff"} /></button>
     </div>
     <div className='current-page'>
