@@ -13,11 +13,7 @@ const About = () => {
       <img src={portrait} alt='Lewis' title="Lewis" />
       <div className='about-text'>
       <h2>About me</h2>
-<<<<<<< HEAD
       <p>I am a Front-End Developer with a passion for problem solving and visual design and a keen eye for detail. I am new to the industry so my focus is on expanding my knowledge and maintaining industry best practice in order to achieve my goal of becoming an expert in the field of Front-End Development. Interactive design, Accessability and UX are key areas of interest for me and I love creating beautiful sites that everyone can enjoy!</p>
-=======
-      <p>I am a Front-End Developer with a passion for problem solving and visual design and I have a keen eye for detail. I am new to the industry so my focus is on expanding my knowledge and maintaining industry best practice in order to achieve my goal of becoming an expert in the field of Front-End Development. Interactive design, Accessability and UX are key areas of interest for me and I love creating beautiful sites that everyone can enjoy!</p>
->>>>>>> 682b09842ff6531a0233276f472d7cc121b0fbc4
       <div className='icons'>
         <AiFillHtml5 color="#2f4f4f" size={25} title="HTML" />
         <DiCss3 color="#2f4f4f" size={25} title="CSS" />

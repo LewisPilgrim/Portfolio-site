@@ -1,12 +1,5 @@
 import React, { useState } from "react";
 import Project from "./Project";
-<<<<<<< HEAD
-import './ProjectList.css';
-import { projectsData } from "../../../project-data";
-
-const ProjectList = () => {
-  const [projects] = useState(projectsData);
-=======
 import DesignProject from "../design/DesignProject";
 import './ProjectList.css';
 import { projectsData } from "./project-data";
@@ -31,22 +24,11 @@ const ProjectList = ({scrollToAbout}) => {
       setOpenProjects([]);
     }
   }
->>>>>>> 682b09842ff6531a0233276f472d7cc121b0fbc4
 
   return (
     <div className="project-list">
       <h2>Projects</h2>
       <p>
-<<<<<<< HEAD
-        Here are some of the projects that I have made, click on them to find
-        out more.
-      </p>
-      <div className="projects">
-        {projects.map((project) => {
-          return <Project key={project.id} name={project.name} img={project.img} description={project.description} techUsed={project.techUsed} />
-        })}
-      </div>
-=======
         Here are some of the projects that I have made. Click on them to find
         out more.
       </p>
@@ -67,7 +49,6 @@ const ProjectList = ({scrollToAbout}) => {
         })}
       </div>
       </div>
->>>>>>> 682b09842ff6531a0233276f472d7cc121b0fbc4
     </div>
   );
 };
