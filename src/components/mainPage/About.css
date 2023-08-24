@@ -30,4 +30,13 @@
 .about-text h2 {
     color: var(--purple);
     font-size: 62px;
+<<<<<<< HEAD
+=======
+}
+
+@media screen and (max-width: 1240px) {
+    .about {
+        margin: 3rem auto;
+    }
+>>>>>>> 682b09842ff6531a0233276f472d7cc121b0fbc4
 }

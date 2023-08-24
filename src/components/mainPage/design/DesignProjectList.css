@@ -1,0 +1,17 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+.project-list h2 {
+    font-size: 62px;
+    color: var(--purple);
+}
+
+.project-list {
+    
+    color: #6e6e6e;
+}

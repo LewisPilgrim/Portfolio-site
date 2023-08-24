@@ -65,4 +65,16 @@ hr {
   .contact h4 {
     margin: 0 15px;
     color: #6e6e6e;
+<<<<<<< HEAD
   }
+=======
+  }
+
+@media screen and (max-width: 450px) {
+  .contact {
+    margin: 0;
+    padding: 3rem 0;
+    padding-bottom: 5rem;
+  }
+}
+>>>>>>> 682b09842ff6531a0233276f472d7cc121b0fbc4
