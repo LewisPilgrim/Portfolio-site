@@ -6,10 +6,12 @@ import SeeMoreBtn from "./SeeMoreBtn";
 import ScrollBtn from "./ScrollBtn";
 import { AiFillLinkedin, AiFillPhone } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
+import CaseStudy from "./CaseStudy";
 
 const MainPage = () => {
   const aboutRef = React.createRef();
   const topRef = React.createRef();
+  const caseStudyRef = React.createRef()
 
   const scrollToAbout = () => {
     aboutRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -27,6 +29,10 @@ const MainPage = () => {
       </div>
       <div ref={aboutRef}></div>
       <About />
+      <hr />
+      <div className="page-window" ref={caseStudyRef}>
+        <CaseStudy />
+      </div>
       <hr />
       <div className="contact">
         <h2>Contact me</h2>

@@ -1,0 +1,19 @@
+.case-study h2 {
+    color: var(--purple);
+    font-size: 62px;
+    padding: 40px 0;
+}
+
+.case-study img {
+    border: 1px solid #666
+}
+
+.case-study-text {
+    margin: 30px 0;
+}
+
+.case-study button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
