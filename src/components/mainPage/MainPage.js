@@ -24,7 +24,7 @@ const MainPage = () => {
   return (
     <div className="page-window" ref={topRef}>
       <div className="project-section">
-        <ProjectList />
+        <ProjectList scrollToAbout={scrollToAbout} />
         <SeeMoreBtn scrollToAbout={scrollToAbout} />
         <hr />
       </div>

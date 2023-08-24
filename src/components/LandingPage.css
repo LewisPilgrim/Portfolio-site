@@ -13,9 +13,6 @@ header span {
 
 header h2 {
     margin-bottom: 2rem;
-<<<<<<< HEAD
-}
-=======
 }
 
 @media screen and (max-width: 380px) {
@@ -91,4 +88,3 @@ header h2 {
       opacity: 0;
     }
   }
->>>>>>> 682b09842ff6531a0233276f472d7cc121b0fbc4
