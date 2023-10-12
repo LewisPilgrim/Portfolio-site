@@ -1,8 +1,8 @@
 import React from "react";
 import About from "./About";
-import ProjectList from "./projects/ProjectList";
+import ProjectList from "./projects/ProjectList.tsx";
 import "./MainPage.css";
-import ScrollBtn from "./ScrollBtn";
+import ScrollBtn from "./ScrollBtn.tsx";
 import { AiFillLinkedin, AiFillPhone } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 

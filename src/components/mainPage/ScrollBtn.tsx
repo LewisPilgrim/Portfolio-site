@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const ScrollBtn = ({ scrollToTop }) => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState<boolean>(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {

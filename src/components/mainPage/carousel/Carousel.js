@@ -9,7 +9,7 @@ const Carousel = ({ carouselItems, alt, title }) => {
         return index > 0 ? setIndex(index - 1) : '';
     }
 
-    const handleNext = ()=> {
+    const handleNext = () => {
         return index < carouselItems.length - 1 ? setIndex(index + 1) : '';
     }
     console.log(carouselItems);
