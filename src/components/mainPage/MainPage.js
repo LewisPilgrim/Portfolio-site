@@ -6,7 +6,7 @@ import ScrollBtn from "./ScrollBtn.tsx";
 import { AiFillLinkedin, AiFillPhone } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import CaseStudy from "./CaseStudy";
-import SeeMoreBtn from "./SeeMoreBtn";
+import SeeMoreBtn from "./SeeMoreBtn.tsx";
 
 
 const MainPage = () => {

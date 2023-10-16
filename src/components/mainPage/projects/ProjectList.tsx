@@ -4,10 +4,11 @@ import DesignProject from "../design/DesignProject";
 import './ProjectList.css';
 import { projectsData } from "./project-data";
 import { designProjects } from "../design/design-project-data";
-import SeeMoreBtn from "../SeeMoreBtn";
+// @ts-ignore
+import SeeMoreBtn from "../SeeMoreBtn.tsx";
 
 interface Props {
-  scrollToAbout: void;
+  scrollToAbout: React.MouseEventHandler<HTMLButtonElement>;
   id: number;
 }
 

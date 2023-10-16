@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { FC } from 'react'
 import './LandingPage.css'
 
-const Header = ({ enterSite }) => {
+interface Props {
+  enterSite: React.MouseEventHandler<HTMLButtonElement>;
+}
+
+const Header: FC<Props> = ({ enterSite }) => {
   return (
     <div className="hero"> 
     <header>
