@@ -19,20 +19,23 @@ import eshopImg12 from "../../../Images/eShop/eshop12.png"
 import eshopImg13 from "../../../Images/eShop/eshop13.png"
 import eshopImg14 from "../../../Images/eShop/eshop14.png"
 import eshopImg15 from "../../../Images/eShop/eshop15.png"
+import pokedexVideo from '../../../Video/pokedex-video.mp4';
+import loginVideo from '../../../Video/login-form-video.mp4';
+import redditVideo from '../../../Video/reddit-lite-video.mp4';
 
 
 export const projectsData = [
     {
         name: "Pokedex",
         id: 1,
-        images: [pokedexImg],
+        images: [pokedexImg, pokedexVideo],
         description: "An app built to show Pokemon and their stats when searched by either name or ID. The search fetches data from the Pokedex API and returns the name, type and abilities of the relevant Pokemon as well as an image of it. Performance was a key aspect of this project and the site achieved a Lighthouse score of 99 on desktop and 86 on mobile.",
         techUsed: "React, Redux, CSS, HTML, Pokemon API"
     },
     {
         name: "Reddit Lite",
         id: 2,
-        images: [redditImg],
+        images: [redditImg, redditVideo],
         description: "An app which links to the Reddit API and displays the top posts from the subreddit that has been searched for. Upvotes of a post can be seen, as well as how many comments there are on it. The links for 'See More' and 'Comments' will take the user to the relevant part of the post's page on the Reddit site. I tried to keep the visual appearance of the site as close to that of the official Reddit site as I could so that it would make sense to users.",
         techUsed: "React, Redux, CSS, HTML, Reddit json API"
     },
@@ -46,7 +49,7 @@ export const projectsData = [
     {
         name: "Login Form",
         id: 4,
-        images: [loginImg],
+        images: [loginImg, loginVideo],
         description: "This was a small project from a Udemy course that I did which was to create a Login screen in React which allows users to move between different sections with animated transitions. There are three pages: Login, Register and Reset which can be moved between seamlessly using the links and buttons. There is a functioning password reveal button and a password strength helper on the Register screen.",
         techUsed: "React, SASS, CSS, HTML"
     },
