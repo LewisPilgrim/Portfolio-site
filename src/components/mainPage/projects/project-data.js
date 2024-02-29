@@ -4,6 +4,21 @@ import jammmingImg from '../../../Images/jammming-screenshot.jpg';
 import loginImg from '../../../Images/login-form-screenshot.jpg';
 import dndImg from '../../../Images/dnd-site-screenshot.jpg';
 import dukesImg from '../../../Images/dukes-suits.png';
+import eshopImg1 from "../../../Images/eShop/eshop1.png"
+import eshopImg2 from "../../../Images/eShop/eshop2.png"
+import eshopImg3 from "../../../Images/eShop/eshop3.png"
+import eshopImg4 from "../../../Images/eShop/eshop4.png"
+import eshopImg5 from "../../../Images/eShop/eshop5.png"
+import eshopImg6 from "../../../Images/eShop/eshop6.png"
+import eshopImg7 from "../../../Images/eShop/eshop7.png"
+import eshopImg8 from "../../../Images/eShop/eshop8.png"
+import eshopImg9 from "../../../Images/eShop/eshop9.png"
+import eshopImg10 from "../../../Images/eShop/eshop10.png"
+import eshopImg11 from "../../../Images/eShop/eshop11.png"
+import eshopImg12 from "../../../Images/eShop/eshop12.png"
+import eshopImg13 from "../../../Images/eShop/eshop13.png"
+import eshopImg14 from "../../../Images/eShop/eshop14.png"
+import eshopImg15 from "../../../Images/eShop/eshop15.png"
 
 
 export const projectsData = [
@@ -48,5 +63,12 @@ export const projectsData = [
         images: [dukesImg],
         description: "My first attempt at creating an e-commerce site, this React project has a primary focus on visuals. I will be continuing the project to add in a search bar so that users can search for particular products and a login feature which will allow users to save products to their wishlist.",
         techUsed: "React, HTML, CSS"
+    },
+    {
+        name: "eShop",
+        id: 7,
+        images: [eshopImg1, eshopImg2, eshopImg3, eshopImg4, eshopImg5, eshopImg6, eshopImg7, eshopImg8, eshopImg9, eshopImg10, eshopImg11, eshopImg12, eshopImg13, eshopImg14, eshopImg15],
+        description: "An e-commerce site made to demonstrate and improve my understanding of Redux. The aim was to create a fully functioning website with an Admin area to manage adding and removing products as well as order status. The final project of a Udemy course that I took, this project has improved my knowledge of React and Redux as well as introducing me to the inclusion of Stripe and Firebase for payment, authorisation and storage. Fully responsive for desktop and mobile, this is the largest and most in-depth project that I have created so far in my career as a Developer.",
+        techUsed: "React, Redux, HTML, SCSS, Stripe, Firebase, Node, Express"
     }
 ]
