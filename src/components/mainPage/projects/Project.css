@@ -39,6 +39,11 @@
     }
 }
 
+.description {
+    overflow-y: scroll;
+    max-height: 100px;
+}
+
 .project-popup h3 {
     padding: 1rem;
 }

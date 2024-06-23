@@ -22,15 +22,26 @@ import eshopImg15 from "../../../Images/eShop/eshop15.png"
 import pokedexVideo from '../../../Video/pokedex-video.mp4';
 import loginVideo from '../../../Video/login-form-video.mp4';
 import redditVideo from '../../../Video/reddit-lite-video.mp4';
+import gandgquoteImg1 from "../../../Images/g&g-quote-portal/image001.webp"
+import gandgquoteImg2 from "../../../Images/g&g-quote-portal/image002.webp"
+import gandgquoteImg3 from "../../../Images/g&g-quote-portal/image007.webp"
+import gandgquoteImg4 from "../../../Images/g&g-quote-portal/image008.webp"
+import gandgquoteImg5 from "../../../Images/g&g-quote-portal/image009.webp"
+import gandgquoteImg6 from "../../../Images/g&g-quote-portal/image010.webp"
+import gandgquoteImg7 from "../../../Images/g&g-quote-portal/image011.webp"
+import gandgquoteImg8 from "../../../Images/g&g-quote-portal/image012.webp"
+import gandgquoteImg9 from "../../../Images/g&g-quote-portal/image013.webp"
+import gandgquoteImg10 from "../../../Images/g&g-quote-portal/image014.webp"
+import gandgquoteImg11 from "../../../Images/g&g-quote-portal/image015.webp"
 
 
 export const projectsData = [
     {
-        name: "Pokedex",
+        name: "G&G Quote portal",
         id: 1,
-        images: [pokedexImg, pokedexVideo],
-        description: "An app built to show Pokemon and their stats when searched by either name or ID. The search fetches data from the Pokedex API and returns the name, type and abilities of the relevant Pokemon as well as an image of it. Performance was a key aspect of this project and the site achieved a Lighthouse score of 99 on desktop and 86 on mobile.",
-        techUsed: "React, Redux, CSS, HTML, Pokemon API"
+        images: [gandgquoteImg1, gandgquoteImg2, gandgquoteImg3, gandgquoteImg4, gandgquoteImg5, gandgquoteImg6, gandgquoteImg7, gandgquoteImg8, gandgquoteImg9, gandgquoteImg10, gandgquoteImg11],
+        description: "A quote portal I am currently developing for my present company, a vitamin manufacturer. The portal is designed to allow brands to select the ingredients, packaging and quantity for bespoke supplements and get an immediate quote so that they can come to the sales staff as more informed, qualified leads. The project is entirely my responsibility, from design, to structure to building and deployment. The project is not yet live, but the functionality is complete and is my greatest development achievement to date. Users must create/login to an account to use the portal and their previously saved quotes are accessible by them so that they have a reference. I have implemented a full account creation, login and password recovery system, using nodemailer for recovery emails and bcrypt and tokens for security. Once logged in, users are able to search ingredients from the buyer database, and only ingredients that are currently able to be sold are shown. I achieved this by writing parameters which the database would be compared against when the ingredient database is first loaded. The page only shows the correct products. The dropdowns for the tub sizes and colours all work dynamically together as only some colours are avaialble in each size. Other colours can be seen in the dropdown, but only selected if they are available in the selected tub size. The prices are calculated by the app in real time, based on the selections that the user makes. Once the user has all of their desired selections they can click 'Save Quote' at the bottom of the form. This will save the quote to their profile in the database as well as sending an email to the sales team which contains all of the information that is required to proceed with the sales process. An example of the email can be seen in the final image. I have really enjoyed the challenge of this project and it is my first full stack project. Not only that, but it is a real-world commercial project and, while not yet deployed, my superiors are extremely pleased with what I have presented and are keen for it to be launched to the public. Problems I particularly enjoyed solving in this project have included 'cleaning' the data so that only the desired results are shown, discovering the need for nodemailer to set up the emailing part of the application, and ensuring that the application is secure enough to be released to the public. I am proud of what I have achieved and learnt from this project.",
+        techUsed: "NextJs, Redux, Node, Mongodb, express, nodemailer, CSS, HTML"
     },
     {
         name: "Reddit Lite",
@@ -73,5 +84,12 @@ export const projectsData = [
         images: [eshopImg1, eshopImg2, eshopImg3, eshopImg4, eshopImg5, eshopImg6, eshopImg7, eshopImg8, eshopImg9, eshopImg10, eshopImg11, eshopImg12, eshopImg13, eshopImg14, eshopImg15],
         description: "An e-commerce site made to demonstrate and improve my understanding of Redux. The aim was to create a fully functioning website with an Admin area to manage adding and removing products as well as order status. The final project of a Udemy course that I took, this project has improved my knowledge of React and Redux as well as introducing me to the inclusion of Stripe and Firebase for payment, authorisation and storage. Fully responsive for desktop and mobile, this is the largest and most in-depth project that I have created so far in my career as a Developer.",
         techUsed: "React, Redux, HTML, SCSS, Stripe, Firebase, Node, Express"
-    }
+    },
+    {
+        name: "Pokedex",
+        id: 8,
+        images: [pokedexImg, pokedexVideo],
+        description: "An app built to show Pokemon and their stats when searched by either name or ID. The search fetches data from the Pokedex API and returns the name, type and abilities of the relevant Pokemon as well as an image of it. Performance was a key aspect of this project and the site achieved a Lighthouse score of 99 on desktop and 86 on mobile.",
+        techUsed: "React, Redux, CSS, HTML, Pokemon API"
+    },
 ]
