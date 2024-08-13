@@ -33,6 +33,12 @@ import gandgquoteImg8 from "../../../Images/g&g-quote-portal/image012.webp"
 import gandgquoteImg9 from "../../../Images/g&g-quote-portal/image013.webp"
 import gandgquoteImg10 from "../../../Images/g&g-quote-portal/image014.webp"
 import gandgquoteImg11 from "../../../Images/g&g-quote-portal/image015.webp"
+import nourishImg1 from "../../../Images/nourish-fund/image01.png"
+import nourishImg2 from "../../../Images/nourish-fund/image02.png"
+import nourishImg3 from "../../../Images/nourish-fund/image03.png"
+import nourishImg4 from "../../../Images/nourish-fund/image04.png"
+import nourishImg5 from "../../../Images/nourish-fund/image05.png"
+import nourishImg6 from "../../../Images/nourish-fund/image06.png"
 
 
 export const projectsData = [
@@ -51,11 +57,11 @@ export const projectsData = [
         techUsed: "React, Redux, CSS, HTML, Reddit json API"
     },
     {
-        name: "Jammming",
+        name: "Nourish Fund",
         id: 3,
-        images: [jammmingImg],
-        description: "As one of the projects on my Codecademy course I made a React application which allows users to make playlists for Spotify. This project made use of the Spotify API to allow users to log in, search for an artist or song on the Spotify database, add tracks to a custom playlist and then add that playlist to their Spotify account. There was a lot of work put into linking up the site with the Spotify API and allowing users to log in.",
-        techUsed: "React, CSS, HTML, Spotify API"
+        images: [nourishImg1, nourishImg2, nourishImg3, nourishImg4, nourishImg5, nourishImg6],
+        description: "A real world project created for a charity organisation which works with manufacturers and the charity Ripple Africa to raise money from B2B transactions for communities in Malawi. The site was fully designed and made by me at the request of the charity owners and has seen some success so far.",
+        techUsed: "Squarespace, Zapier, CSS"
     },
     {
         name: "Login Form",
@@ -91,5 +97,12 @@ export const projectsData = [
         images: [pokedexImg, pokedexVideo],
         description: "An app built to show Pokemon and their stats when searched by either name or ID. The search fetches data from the Pokedex API and returns the name, type and abilities of the relevant Pokemon as well as an image of it. Performance was a key aspect of this project and the site achieved a Lighthouse score of 99 on desktop and 86 on mobile.",
         techUsed: "React, Redux, CSS, HTML, Pokemon API"
+    },
+    {
+        name: "Jammming",
+        id: 9,
+        images: [jammmingImg],
+        description: "As one of the projects on my Codecademy course I made a React application which allows users to make playlists for Spotify. This project made use of the Spotify API to allow users to log in, search for an artist or song on the Spotify database, add tracks to a custom playlist and then add that playlist to their Spotify account. There was a lot of work put into linking up the site with the Spotify API and allowing users to log in.",
+        techUsed: "React, CSS, HTML, Spotify API"
     },
 ]
